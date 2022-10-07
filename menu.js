@@ -202,7 +202,7 @@ console.log(filteredFood)
         if it is, return objects whose value for the given
         property is greater than the `number` passed in
 
-        If the type isn't `below`, return objects whose
+        If the type is `below`, return objects whose
         value for the given property is less than the 
         `number` passed in
     
@@ -212,12 +212,9 @@ console.log(filteredFood)
 //CODE HERE
 
 // function filterByProperty(property, number, type){
-//     let newArr = []
-//     foorArr.filter(element = element )
+//     let newArr = [];
+//     foodArr.filter(type => type === 'above')
 // }
-
-// console.log(filterByProperty(foodArr.))
-
 
 
 
@@ -229,3 +226,5 @@ console.log(filteredFood)
 */
 
 //CODE HERE
+
+// console.log(filterByProperty(foodArr[0].price, 10, 'above'))
